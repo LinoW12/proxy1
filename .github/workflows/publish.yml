@@ -3,7 +3,7 @@ name: Docker Publish
 on:
   push:
     branches:
-      - main
+      - dev
 
 env:
   REGISTRY: ghcr.io
